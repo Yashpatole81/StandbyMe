@@ -30,6 +30,12 @@ Your selected style persists across app restarts and applies to the standby scre
 - Stop button for manual cancellation
 - Auto-closes with completion message
 
+## Screenshots
+
+| Settings | Clock Styles | Timer Setup |
+|:---:|:---:|:---:|
+| <img src="screenshots/settings_screen.png" width="200"/> | <img src="screenshots/clock_style_selection.png" width="200"/> | <img src="screenshots/timer_setup.png" width="200"/> |
+
 ## Technical Specifications
 
 - **Minimum SDK**: Android 8.0 (API 26)
