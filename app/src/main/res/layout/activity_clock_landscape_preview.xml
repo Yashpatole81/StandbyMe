@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <!-- Clock Preview Container -->
+    <LinearLayout
+        android:id="@+id/clock_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/landscape_clock_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23:45"
+            android:textColor="@color/white"
+            android:textSize="120sp"
+            android:fontFamily="sans-serif-light"
+            android:includeFontPadding="false" />
+
+        <TextView
+            android:id="@+id/landscape_date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wednesday, 26 November"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginTop="8dp"
+            android:alpha="0.8" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

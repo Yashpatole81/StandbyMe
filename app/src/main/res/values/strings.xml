@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StandbyMe</string>
+    <string name="charging">Charging</string>
+    <string name="not_charging">Not Charging</string>
+    <string name="battery_format">%d%%</string>
+    
+    <!-- Main Activity -->
+    <string name="app_settings_title">StandBy Settings</string>
+    <string name="clock_styles_button">Clock Styles</string>
+    <string name="countdown_timer_button">Countdown Timer</string>
+    
+    <!-- Clock Style Activity -->
+    <string name="clock_style_title">Choose Clock Style</string>
+    <string name="clock_style_preview">Preview</string>
+    <string name="clock_style_digital">Digital</string>
+    <string name="clock_style_bold">Bold</string>
+    <string name="clock_style_bold_square">Bold Square</string>
+    <string name="clock_style_bold_condensed">Bold Condensed</string>
+    <string name="clock_style_neon">Neon</string>
+    <string name="clock_style_minimal">Minimal</string>
+    <string name="clock_style_outlined">Outlined</string>
+    <string name="clock_style_retro">Retro</string>
+    <string name="clock_style_next">Next</string>
+    <string name="landscape_preview_title">Landscape Preview</string>
+    
+    <!-- Timer Activity -->
+    <string name="timer_setup_title">Set Timer</string>
+    <string name="timer_start_button">Start Timer</string>
+    <string name="timer_stop_button">Stop</string>
+    <string name="timer_finished">Time\'s Up!</string>
+    <string name="hours_label">Hours</string>
+    <string name="minutes_label">Minutes</string>
+    <string name="seconds_label">Seconds</string>
+</resources>
